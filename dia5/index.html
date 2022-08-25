@@ -8,15 +8,18 @@
    <title>DOM</title>
 </head>
 <body>
- 
+    
    <form id=formulario>
+        <span id="errorDatos" class="hide">Ingresa tus datos</span>
        <input id="usuario" type="text" class="customInput" placeholder="Ingresa tu usuario">
        <span id="errorUsuario" class="hide">Ingresa tu usuario</span>
        <input id="password" type="password" class="customInput" placeholder="Ingresa tu password">
        <span id="errorPassword" class="hide">Ingresa tu password</span>
-       <button class="customButton">Enviar</button>
+       <a href="./cuenta.html"><button class="customButton">Enviar</button></a>
    </form>
   
+    <div class="render" id="render"></div>
+
    <script src="./index.js"></script>
  
 </body>
